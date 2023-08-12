@@ -1,0 +1,38 @@
+.signup-wrapper{
+    height: 100%;
+    padding: 1.5rem 0;
+}
+.signup-wrapper .signup-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.signup-wrapper .signup-form .signup-form-fields{
+    margin: 0.5rem 1rem;
+    height: 60%
+}
+.signup-wrapper .signup-form .signup-form-fields .signup-title{
+    font-size: 1.5rem;
+    font-weight: revert;
+    margin-bottom: 1rem;
+}
+.signin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-container .signin-form-box{
+    width: 90%;
+}
+.signin-container .signin-form-box .signin-title{
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+}
+.signin-container .signin-form-box .signin-desc{
+    font-size: .9rem;
+    color: #74777B;
+    margin: 0 0 1rem;
+}
